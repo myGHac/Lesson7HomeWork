@@ -3,10 +3,10 @@ public class Calculator {
     public static class calculate {
 
 
-        static int sumNumber(int sum1, int sum2, int sum3) {
+        static int average(int num1, int num2, int num3) {
 
-          int  sAriph = (sum1+sum2+sum3)/3;
-            return sAriph;
+         int  averageNum = (num1+num2+num3)/3;
+            return averageNum;
         }
 
         public static void main(String[] args) {
@@ -14,9 +14,9 @@ public class Calculator {
             int num1 = 2, num2 = 3, num3 = 7;
 
 
-            int sAriph = sumNumber(num1, num2, num3);
+            int averageNum = average(num1, num2, num3);
 
-            System.out.println(" Среднее арифметическое " + sAriph);
+            System.out.println(" Среднее арифметическое " + averageNum);
         }
 
     }
