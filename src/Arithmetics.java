@@ -19,25 +19,25 @@ public class Arithmetics {
         return mulResult;
     }
     static double div(double num1, double num2) {
-        double  divResult;
-        if (num2 != 0) {
+        double divResult;
+           if (num2 != 0) {
 
-         divResult = num1/num2;
-        return  divResult;
-        }
-        return 0;           }
-
+        divResult = num1 / num2;
+        return divResult;
+          }
+            return 0;           }
+  // }
     public static void main(String[] args) {
 
        double num5;
 
         System.out.println("Введите число 1: ");
-        Scanner sc1 = new Scanner(System.in);
-        double num1 = sc1.nextDouble();
+        Scanner sc = new Scanner(System.in);
+        double num1 = sc.nextDouble();
 
         System.out.println("Введите число 2: ");
-        Scanner sc2 = new Scanner(System.in);
-        double num2 = sc2.nextDouble();
+        sc = new Scanner(System.in);
+        double num2 = sc.nextDouble();
 
         System.out.println("Введите знак арфметической операции : ");
         Scanner sc3 = new Scanner(System.in);
